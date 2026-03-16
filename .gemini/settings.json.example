@@ -1,0 +1,17 @@
+{
+  "netlify": {
+    "site_id": "SEU_SITE_ID_AQUI",
+    "auth_token": "SEU_AUTH_TOKEN_AQUI",
+    "team_slug": "SEU_TIME_SLUG_AQUI",
+    "deploy_directory": "./",
+    "production_branch": "main"
+  },
+  "deployment_pipeline": {
+    "provider": "github-actions",
+    "auto_deploy": true
+  },
+  "agent_context": {
+    "role": "Technical Product Leader & DevOps",
+    "frameworks": ["Vanilla JS", "i18n-custom", "GitHub Actions"]
+  }
+}
