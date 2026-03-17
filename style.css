@@ -362,6 +362,10 @@ h2 {
     border-color: var(--accent-red);
 }
 
+.project-card.cta-card h3 {
+    color: var(--accent-red);
+}
+
 .project-card.cta-card:hover {
     background: rgba(255, 59, 48, 0.05);
 }
