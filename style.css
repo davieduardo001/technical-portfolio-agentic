@@ -512,7 +512,7 @@ footer p {
 @media (max-width: 768px) {
     .menu-toggle { display: flex; }
     
-    .about-grid {
+    #about .about-grid {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
