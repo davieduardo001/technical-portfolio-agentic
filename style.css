@@ -30,7 +30,7 @@ body {
 
 /* Header & Nav */
 header {
-    height: 80px;
+    height: 64px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -48,7 +48,7 @@ nav {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 .logo {
@@ -105,7 +105,7 @@ nav ul li {
     nav ul {
         display: none;
         position: absolute;
-        top: 80px;
+        top: 64px;
         left: 0;
         width: 100%;
         background: var(--bg-light);
@@ -134,7 +134,7 @@ nav ul li a:hover {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 64px;
 }
 
 .hero-content {
@@ -642,7 +642,7 @@ footer p {
     nav ul {
         display: none;
         position: absolute;
-        top: 80px;
+        top: 64px;
         left: 0;
         width: 100%;
         background: var(--bg-light);
