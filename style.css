@@ -222,7 +222,7 @@ h2 {
 }
 
 /* About Grid */
-.about-grid {
+#about .about-grid {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     gap: 4rem;
@@ -385,10 +385,19 @@ h2 {
     font-size: 0.9rem;
 }
 
+.company-tag {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+}
+
 /* Certifications */
 .cert-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
 }
 
@@ -429,8 +438,10 @@ h2 {
 }
 
 /* Contact Section */
-.contact-box {
-    text-align: left;
+#contact .contact-box {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .contact-methods {
@@ -438,13 +449,13 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .contact-link {
     color: var(--white);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: clamp(1.1rem, 4vw, 1.8rem);
     font-weight: 700;
     letter-spacing: -0.02em;
     transition: var(--transition);
