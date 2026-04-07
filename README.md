@@ -6,7 +6,7 @@ Este repositório contém o código-fonte do meu portfólio profissional, desenv
 
 Mais do que um simples site, este projeto é um **case real de automação**. Todo o desenvolvimento foi realizado através de um **Agentic Workflow** utilizando:
 
-- **Gemini CLI:** Utilizado como um parceiro de engenharia para arquitetar a estrutura, lógica de bilingue (i18n) e refinamento de UX.
+- **Claude Code (Anthropic):** Utilizado como parceiro de engenharia agentic para arquitetar a estrutura, lógica de i18n e refinamento de UX — powered by `claude-sonnet-4-6`.
 - **Agentic Orchestration:** O fluxo de trabalho foi conduzido por agentes de IA que realizaram desde a escrita do código até a configuração da infraestrutura.
 - **GitHub Actions:** Pipeline de CI/CD configurada para deploy automatizado e contínuo.
 - **Netlify:** Hospedagem de alta performance para o frontend.
