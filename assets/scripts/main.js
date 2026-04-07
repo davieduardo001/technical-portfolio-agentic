@@ -72,7 +72,9 @@ const translations = {
         p_resume_h: "Resume +",
         p_resume_d: "Automation of researcher CV collection for UniSer, utilizing web scraping and custom automation scripts.",
         p_melipona_h: "Estufa Melipona",
-        p_melipona_d: "Development of an automated incubator for native bees, ensuring ideal conditions for new colonies using microcontrollers."
+        p_melipona_d: "Development of an automated incubator for native bees, ensuring ideal conditions for new colonies using microcontrollers.",
+        p_juridico_h: "Legal Management System",
+        p_juridico_d: "Acted as DevOps Engineer and Requirements Analyst on a large-scale legal system. Responsible for CI/CD infrastructure, requirements documentation, and backlog prioritization with legal and technical stakeholders."
     },
     pt: {
         nav_about: "Sobre",
@@ -147,7 +149,9 @@ const translations = {
         p_resume_h: "Resume +",
         p_resume_d: "Automatização da coleta de currículos de pesquisadores para a UniSer, utilizando web scraping e automação.",
         p_melipona_h: "Estufa Melipona",
-        p_melipona_d: "Desenvolvimento de incubadora automatizada para abelhas nativas, garantindo condições ideais para novas colônias usando microcontroladores."
+        p_melipona_d: "Desenvolvimento de incubadora automatizada para abelhas nativas, garantindo condições ideais para novas colônias usando microcontroladores.",
+        p_juridico_h: "Sistema Jurídico",
+        p_juridico_d: "Atuei como Engenheiro DevOps e Analista de Requisitos em sistema jurídico de grande porte. Responsável pela infraestrutura de CI/CD, documentação de requisitos e priorização de backlog junto a stakeholders jurídicos e técnicos."
     }
 };
 
