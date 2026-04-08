@@ -1,29 +1,28 @@
 # Davi Eduardo | Technical Product Leader & CFPP
 
-Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido para demonstrar a interseção entre **Estratégia de Produto**, **Engenharia de IA** e **Cultura DevOps**.
+This repository contains the source code for my professional portfolio, built to showcase the intersection between **Product Strategy**, **AI Engineering**, and **DevOps Culture**.
 
-## 🚀 O Case: Desenvolvimento via Agentic Workflow
+## The Case: Agentic Workflow Development
 
-Mais do que um simples site, este projeto é um **case real de automação**. Todo o desenvolvimento foi realizado através de um **Agentic Workflow** utilizando:
+More than a simple website, this project is a **real automation case**. The entire development was carried out through an **Agentic Workflow** using:
 
-- **Claude Code (Anthropic):** Utilizado como parceiro de engenharia agentic para arquitetar a estrutura, lógica de i18n e refinamento de UX — powered by `claude-sonnet-4-6`.
-- **Agentic Orchestration:** O fluxo de trabalho foi conduzido por agentes de IA que realizaram desde a escrita do código até a configuração da infraestrutura.
-- **GitHub Actions:** Pipeline de CI/CD configurada para deploy automatizado e contínuo.
-- **Vercel:** Hospedagem de alta performance para o frontend.
+- **Claude Code (Anthropic):** Used as an agentic engineering partner to architect the structure, i18n logic, and UX refinement — powered by `claude-sonnet-4-6`.
+- **Agentic Orchestration:** The workflow was driven by AI agents responsible for everything from writing code to configuring infrastructure.
+- **Vercel:** Hosting via native GitHub integration with automatic continuous deployment.
 
-## 🛠️ Stack Técnica
+## Tech Stack
 
 - **Frontend:** HTML5, Vanilla CSS3 (Custom Properties), JavaScript (ES6+).
-- **i18n:** Sistema customizado de tradução dinâmica (EN/PT) com persistência em LocalStorage.
-- **DevOps:** GitHub Actions para automação de entrega.
-- **Métricas:** Baseado em princípios de APF (Análise de Pontos de Função) para organização de escopo.
+- **i18n:** Custom dynamic translation system (EN/PT) with LocalStorage persistence.
+- **DevOps:** Vercel native GitHub integration for automated delivery.
+- **Metrics:** Based on FPA (Function Point Analysis) principles for scope organization.
 
-## 📈 Funcionalidades Chave
+## Key Features
 
-- **Bilingue por Padrão:** Foco no mercado global com opção para Português.
-- **Mobile First:** Interface totalmente responsiva e otimizada para conversão.
-- **WhatsApp Integrado:** Links dinâmicos com mensagens personalizadas baseadas no idioma.
-- **Backlog Detalhado:** Página dedicada com cases de BI, IA, GovTech e IoT.
+- **Bilingual by Default:** Global market focus with Portuguese option.
+- **Mobile First:** Fully responsive interface optimized for conversion.
+- **WhatsApp Integrated:** Dynamic links with personalized messages based on language.
+- **Detailed Backlog:** Dedicated page with BI, AI, GovTech, and IoT cases.
 
 ---
 Built with Precision, Automation & AI.

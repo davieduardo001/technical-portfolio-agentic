@@ -1,26 +1,26 @@
 # Portfolio — Claude Code Instructions
 
-Este é o portfólio profissional de Davi Eduardo, desenvolvido e mantido via **Agentic Workflow com Claude Code (Anthropic)**.
+This is the professional portfolio of Davi Eduardo, developed and maintained via **Agentic Workflow with Claude Code (Anthropic)**.
 
-## Contexto do Projeto
-- Portfólio profissional que demonstra a interseção entre Estratégia de Produto, Engenharia de IA e Cultura DevOps.
+## Project Context
+- Professional portfolio showcasing the intersection of Product Strategy, AI Engineering, and DevOps Culture.
 - Stack: HTML5, Vanilla CSS3 (Custom Properties), JavaScript ES6+.
-- Deploy: Netlify via GitHub Actions (CI/CD automático).
-- i18n: sistema customizado EN/PT com persistência em LocalStorage.
+- Deploy: Vercel via native GitHub integration (automatic CI/CD).
+- i18n: custom EN/PT translation system with LocalStorage persistence.
 
-## Mandatos de Desenvolvimento
-- Priorizar design moderno, limpo e responsivo (Mobile First).
-- Utilizar Vanilla CSS sempre que possível; só introduzir bibliotecas externas se explicitamente solicitado.
-- Performance e acessibilidade (A11y / WCAG) são prioridades não negociáveis.
-- Não adicionar funcionalidades além do solicitado; sem over-engineering.
-- Preferir editar arquivos existentes a criar novos.
+## Development Mandates
+- Prioritize modern, clean, and responsive design (Mobile First).
+- Use Vanilla CSS whenever possible; only introduce external libraries if explicitly requested.
+- Performance and accessibility (A11y / WCAG) are non-negotiable priorities.
+- Do not add features beyond what is requested; no over-engineering.
+- Prefer editing existing files over creating new ones.
 
-## Estrutura do Projeto
-- O projeto deve ser organizado de forma clara, separando componentes, estilos e scripts.
-- Arquivos HTML na raiz; CSS e JS em suas respectivas pastas.
-- Alterações de UI devem ser verificadas em mobile e desktop antes de concluídas.
+## Project Structure
+- The project must be clearly organized, separating components, styles, and scripts.
+- HTML files at the root; CSS and JS in their respective folders.
+- UI changes must be verified on both mobile and desktop before being finalized.
 
-## Agente: Claude Code
-- Este projeto utiliza **Claude Code (claude-sonnet-4-6)** como parceiro de engenharia agentic.
-- Respostas devem ser concisas; evitar resumos desnecessários após ações.
-- Commits e PRs só devem ser criados quando explicitamente solicitados.
+## Agent: Claude Code
+- This project uses **Claude Code (claude-sonnet-4-6)** as an agentic engineering partner.
+- Responses must be concise; avoid unnecessary summaries after actions.
+- Commits and PRs should only be created when explicitly requested.

@@ -1,84 +1,84 @@
 # Engineering & Product Cases
 
-Registro completo dos cases de engenharia e produto de **Davi Eduardo**.
-Todos os projetos abaixo envolveram priorização de backlog, alinhamento com stakeholders e entrega orientada a valor.
+Complete record of engineering and product cases by **Davi Eduardo**.
+All projects below involved backlog prioritization, stakeholder alignment, and value-driven delivery.
 
 ---
 
-## 🔄 Em Andamento
+## In Progress
 
-### Integrador
-**Período:** 2026 — Atual | **Empresa:** Hepta Tecnologia / Crea-SP
-**Área:** Interoperability & APIs
+### Integrator
+**Period:** 2026 — Present | **Company:** Hepta Tecnologia / Crea-SP
+**Area:** Interoperability & APIs
 
-Atuação como Product Owner de solução middleware crítica para integração dos sistemas core do Crea-SP com plataformas de terceiros. Responsável pelo backlog, critérios de aceite e alinhamento técnico com o time de engenharia.
+Acting as Product Owner for a critical middleware solution integrating Crea-SP's core systems with third-party platforms. Responsible for backlog management, acceptance criteria, and technical alignment with the engineering team.
 
 ---
 
 ### Product Owner @ Votnet
-**Período:** Ago 2025 — Atual | **Empresa:** Hepta Tecnologia / Crea-SP
-**Área:** Product Management
+**Period:** Aug 2025 — Present | **Company:** Hepta Tecnologia / Crea-SP
+**Area:** Product Management
 
-Liderança do projeto VOTENET para otimização e escalabilidade do sistema interno de votação do Crea-SP. Foco em maximização de valor de negócio, refinamento de backlog e melhoria contínua de UX.
+Leading the VOTENET project to optimize and scale Crea-SP's internal voting system. Focused on business value maximization, backlog refinement, and continuous UX improvement.
 
 ---
 
 ### Single Registry (RU) – Confea
-**Período:** 2024 — Atual | **Empresa:** Hepta Tecnologia / Confea
-**Área:** GovTech
+**Period:** 2024 — Present | **Company:** Hepta Tecnologia / Confea
+**Area:** GovTech
 
-Padronização e modernização de processos nos 27 conselhos regionais do Confea utilizando Análise de Pontos de Função (APF/CFPP) para mensuração e escopo de entregas.
+Standardization and modernization of processes across the 27 regional councils of Confea using Function Point Analysis (FPA/CFPP) for delivery measurement and scoping.
 
 ---
 
 ### BI Dashboards – Crea-SP
-**Período:** Jul 2025 — Atual | **Empresa:** Hepta Tecnologia / Crea-SP
-**Área:** BI & Data Analytics
+**Period:** Jul 2025 — Present | **Company:** Hepta Tecnologia / Crea-SP
+**Area:** BI & Data Analytics
 
-Otimização da análise estratégica de dados no Crea-SP com aumento de 25% na transparência de indicadores. Levantamento de requisitos, definição de KPIs e acompanhamento de desenvolvimento dos dashboards.
+Optimization of strategic data analysis at Crea-SP, achieving a 25% increase in indicator transparency. Requirements gathering, KPI definition, and dashboard development oversight.
 
 ---
 
-## ✅ Concluídos
+## Completed
 
-### Curadoria Ágil
-**Período:** Início 2025 | **Empresa:** Hepta Informática
-**Área:** Agile & Product Management
+### Agile Curation
+**Period:** Early 2025 | **Company:** Hepta Informática
+**Area:** Agile & Product Management
 
-Atuação como Product Owner em iniciativa interna de apoio ao time ágil. Responsável pelo tracking de sprints, facilitação de cerimônias e curadoria do backlog para garantir alinhamento de prioridades e cadência de entrega.
+Acting as Product Owner in an internal initiative supporting the agile team. Responsible for sprint tracking, ceremony facilitation, and backlog curation to ensure priority alignment and delivery cadence.
 
 ---
 
 ### AI in Internal Processes
-**Período:** 2025 | **Empresa:** Hepta Informática
-**Área:** AI & Domain-Driven Design
+**Period:** 2025 | **Company:** Hepta Informática
+**Area:** AI & Domain-Driven Design
 
-Desenvolvimento de plataforma para automação de processos internos com ênfase em IA. Participação no levantamento de requisitos, modelagem de domínio (DDD) e definição do roadmap do produto.
-
----
-
-### Sistema Jurídico
-**Período:** 2024 | **Empresa:** Hepta Tecnologia
-**Área:** DevOps & Requirements Engineering
-
-Atuação como Engenheiro DevOps e Analista de Requisitos em sistema jurídico de grande porte. Responsável pela infraestrutura de CI/CD, levantamento e documentação de requisitos funcionais e não-funcionais, e priorização de backlog junto aos stakeholders legais e técnicos.
+Development of a platform for internal process automation with an emphasis on AI. Involved in requirements gathering, domain modeling (DDD), and product roadmap definition.
 
 ---
 
-### Gestão de Riscos
-**Período:** 2º Semestre 2024 | **Empresa:** Hepta Tecnologia
-**Área:** GovTech & Risk Management
+### Legal System
+**Period:** 2024 | **Company:** Hepta Tecnologia
+**Area:** DevOps & Requirements Engineering
 
-Participação no projeto de gestão de riscos institucionais. Envolveu mapeamento de processos, priorização de backlog orientada a conformidade e suporte à equipe na entrega de funcionalidades críticas para mitigação de riscos organizacionais.
-
----
-
-### Estufa Melipona
-**Período:** 2023 | **Empresa:** Instituto Abelha Nativa
-**Área:** IoT & Automation
-
-Desenvolvimento de incubadora automatizada para abelhas nativas sem ferrão utilizando microcontroladores. Projeto multidisciplinar com foco em automação de controle climático (temperatura, umidade) via sensores e atuadores programáveis.
+Acting as DevOps Engineer and Requirements Analyst on a large-scale legal system. Responsible for CI/CD infrastructure, functional and non-functional requirements documentation, and backlog prioritization with legal and technical stakeholders.
 
 ---
 
-*Última atualização: Abril 2026*
+### Risk Management
+**Period:** H2 2024 | **Company:** Hepta Tecnologia
+**Area:** GovTech & Risk Management
+
+Participated in an institutional risk management project. Involved process mapping, compliance-driven backlog prioritization, and team support in delivering critical features for organizational risk mitigation.
+
+---
+
+### Melipona Greenhouse
+**Period:** 2023 | **Company:** Instituto Abelha Nativa
+**Area:** IoT & Automation
+
+Development of an automated incubator for native stingless bees using microcontrollers. Multidisciplinary project focused on climate control automation (temperature, humidity) via programmable sensors and actuators.
+
+---
+
+*Last updated: April 2026*
