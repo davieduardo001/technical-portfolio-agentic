@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write        # needed to push to GHCR
+      packages: write
 
     steps:
       - name: Checkout
@@ -56,12 +56,24 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > /tmp/deploy_key
           chmod 600 /tmp/deploy_key
 
+          # Substitute the pinned SHA image into the manifest and base64-encode
+          # so it survives the SSH transport without escaping issues
+          MANIFEST=$(sed "s|${{ env.IMAGE }}:dev|${IMAGE_TAG}|g" k8s/dev.yaml | base64 -w 0)
+
           ssh -o StrictHostKeyChecking=no -i /tmp/deploy_key \
-            ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }} \
-            "k3s kubectl set image deployment/${{ env.DEPLOYMENT }} \
-               ${{ env.DEPLOYMENT }}=${IMAGE_TAG} \
-               -n ${{ env.NAMESPACE }} && \
-             k3s kubectl rollout status deployment/${{ env.DEPLOYMENT }} \
-               -n ${{ env.NAMESPACE }} --timeout=120s"
+            ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }} bash << ENDSSH
+            set -e
+
+            # Create namespace if it doesn't exist
+            k3s kubectl create namespace ${{ env.NAMESPACE }} \
+              --dry-run=client -o yaml | k3s kubectl apply -f -
+
+            # Apply full manifest (idempotent: creates on first run, updates on subsequent)
+            echo "${MANIFEST}" | base64 -d | k3s kubectl apply -f -
+
+            # Wait for rollout
+            k3s kubectl rollout status deployment/${{ env.DEPLOYMENT }} \
+              -n ${{ env.NAMESPACE }} --timeout=120s
+          ENDSSH
 
           rm /tmp/deploy_key

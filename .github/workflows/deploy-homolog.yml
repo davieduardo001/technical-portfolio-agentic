@@ -56,12 +56,19 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > /tmp/deploy_key
           chmod 600 /tmp/deploy_key
 
+          MANIFEST=$(sed "s|${{ env.IMAGE }}:homolog|${IMAGE_TAG}|g" k8s/homolog.yaml | base64 -w 0)
+
           ssh -o StrictHostKeyChecking=no -i /tmp/deploy_key \
-            ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }} \
-            "k3s kubectl set image deployment/${{ env.DEPLOYMENT }} \
-               ${{ env.DEPLOYMENT }}=${IMAGE_TAG} \
-               -n ${{ env.NAMESPACE }} && \
-             k3s kubectl rollout status deployment/${{ env.DEPLOYMENT }} \
-               -n ${{ env.NAMESPACE }} --timeout=120s"
+            ${{ env.SERVER_USER }}@${{ env.SERVER_HOST }} bash << ENDSSH
+            set -e
+
+            k3s kubectl create namespace ${{ env.NAMESPACE }} \
+              --dry-run=client -o yaml | k3s kubectl apply -f -
+
+            echo "${MANIFEST}" | base64 -d | k3s kubectl apply -f -
+
+            k3s kubectl rollout status deployment/${{ env.DEPLOYMENT }} \
+              -n ${{ env.NAMESPACE }} --timeout=120s
+          ENDSSH
 
           rm /tmp/deploy_key
