@@ -1,0 +1,13 @@
+.git
+.gitignore
+.next
+node_modules
+npm-debug.log*
+README.md
+AGENT.md
+CASES.md
+public/photo-placeholder.txt
+public/cv/README.txt
+k8s/
+Dockerfile
+.dockerignore
